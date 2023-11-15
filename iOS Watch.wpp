@@ -1,0 +1,131 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : iOS Watch
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Application iOS
+    internal_properties : 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
+    configuration_id : 10414572236468362299
+    type : 18
+    generation_directory : .\Exe\Application iOS
+    version : {}
+    language : 1
+  -
+    name : Application Apple Watch
+    internal_properties : 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
+    configuration_id : 8781953700735846851
+    type : 22
+    version : {}
+    language : 1
+ elements :
+  identifier : 0x485a5d9b01f6699c
+  elements :
+   -
+     name : COL_AppleWatch_Téléphone
+     identifier : 0x485a87d0043b4a78
+     internal_properties : CAAAAAgAAAA5FWGlAn83OJtVYF10lpRUWeqkBLsMdi6Cvq/ErXObTeN5PY2jYb/c5FpEvES8RLQcJA==
+     physical_name : .\COL_AppleWatch_Téléphone.wdg
+     type : 7
+     configurations :
+      -
+        configuration_id : 8781953700735846851
+        excluded : true
+   -
+     name : COL_AppleWatch_Montre
+     identifier : 0x485a87b50439e045
+     internal_properties : CAAAAAgAAAA2HB4CoZ6Wmbo0y6kTe928VtVt9Sb3qBB2pbiryCj0PPQue2XHPZg3AzmjHeUb59kjIw==
+     physical_name : .\COL_AppleWatch_Montre.wdg
+     type : 7
+     configurations :
+      -
+        configuration_id : 10414572236468362299
+        excluded : true
+   -
+     name : FEN_Watch
+     identifier : 0x485a5e0f04302eeb
+     internal_properties : CAAAAAgAAACSaMre7VrSja44NjuV9CsukpWRQWa3RWpOq9adRqrqNvIop3ekWGfr9y2XYSHfmw33fw==
+     physical_name : .\FEN_Watch.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 10414572236468362299
+        excluded : true
+   -
+     name : FEN_Telephone
+     identifier : 0x485a5ded0422aa69
+     internal_properties : CAAAAAgAAADJRTHV0o+nSGvl9gpYeb6rMRAIEJGPp/O4CKFIpmqoEOg4c7dU8C0sNOrULPTslATMVA==
+     physical_name : .\FEN_Telephone.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 8781953700735846851
+        excluded : true
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAAA86r/Mv47NXOVZVtAnKhI+UG86dlKc2T6AUDGJqf7uhf99P2aImOtXDhpVNY0gPIucLNuQlcPJx/rIH6ue7lypuA==
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABlNzzZA1nZ7fWmP4L6OOll/TSEuDtqdBY88Xa15XQb9Qk/sI7RVd2meVC03FdFIcqdcOA/VFemrhWWSmhcaCRTD/aIqa79KKEE1UMqJEgwOaoUSznVbR+T3eNnYRaeFnN0f2Bb4TktMbM2x+FBYG3SRBvDcV22EiHgNlQ152TchoTPG7kTgchYy52ClEQ1oczwdA==
+     code : |1+
+      
+      /////////////////////////////////////////////////
+      // Callbacks pour l'Apple Watch
+      <COMPILE SI TypeConfiguration=iOS>
+      	// Calbacks du téléphone
+      	awProcédureRéceptionInfo(awRéceptionInfo_Téléphone)
+      	awProcédureRéceptionEtEnvoiInfo(awRéceptionInfo_Téléphone)
+      <FIN>
+      <COMPILE SI TypeConfiguration=AppleWatch>
+      	// Calbacks de la montre
+      	awProcédureRéceptionInfo(awRéceptionInfo_Montre)
+      	awProcédureRéceptionEtEnvoiInfo(awRéceptionInfo_Montre)
+      <FIN>
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Application iOS
+     identifier : 0x485a5d9b01f769ab
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Application Apple Watch
+     identifier : 0x485a5e010423f7ec
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

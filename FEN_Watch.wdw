@@ -1,0 +1,161 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Watch
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Watch
+ identifier : 0x285a5e0f138f2eeb
+ internal_properties : CAAAAAgAAAD5Io+otnPcP5/XRGqUo/n2deUx6bR+jvQP/hPbVqs13yy9biB2RkYTECbzNiYNC/Sy5bR54FfPHqhCpXhWoPKxWA21Ao2eklH+Ksf/H6Lqd38ZxSRocCP9J+CoZa98xbfQjWBtw7bTdVVezeSRWGhmLaw4o3URul1yNS46NI4f0vDO3b45g/Aya2GmpAx458y3HIwoL+y4GaWQOgjyy61c9PpD4n9TzacjdIdIvLGE+MTzQQKbvsZkX7IzVY6h05OfPhrGwVclTgH+spsknnTHNexg/CE6dBKxSTqoe4cp9F/p70IYbDWZe7z6HeKBAMW6H3ZC6wRwUxbPkj+ICLT7JS+ZsLXO0xibTNFAlSY6Q034QKs9y3hR9K8WrYGY5/GsTjWaoBb3keCbCJn1ZsROdgu570naxl+xEwyNMbzzbCGc4tT0/5kgMwDegfw+Y04T6O67B7dZFGnm2z44IT7U+lSfZjaQeuGrVkCPdyQjCrsRwGMneuJDERMAc6UJbcQMjOUDI6sgjQkusV+vufcIPyMgePq2y0iCvSf1ONDDgLQQhzsdHhtAOYyU5Byoq5KosOOO9IVNOvt9J/ZNGvGEyEQLzfSI9wLFDnAoBJnKM6CUT/aBeALVQfU2FODT1pFPZgeZrEja1tXHLf2anYjPPONQeaCnx37Ge/49nt3ym6sE40ODZNjTRFCvgLrkPW9JVFaxPv0hDWAghxbfNPxl8+APkDDXdCJbq3tDDEb6MPzhsGre
+ properties :
+  width : 136
+  height : 170
+ controls :
+  -
+    name : LIB_Texte_envoyé_par_la
+    identifier : 0x285a5e3813cccf32
+    internal_properties : CAAAAAgAAAAmSXXPAujTt8CBB4XmNcbvweNfvo5SVTdyj3ZwR4QCgR2HciqzFuYuz6XR0TwMm4Xte/uffl0GsJd8oXPGh/2mBPQsh88ho44c1ruvG/MmuJ/AB5n0pOxrQFnFKPxpw3yIuug/EfySK+LFvnzJ7lqEWT871tyHp2y9gDLJ5Enn8nEocGUT/+wT61sNs0phLowyCquhgcQaW+63DplZKb+0wa0KaARNgBj10g2+KVwn1UGFKEaU068Tw4ftywNRf8K7QOkza8oYc+8jWPiVOba4PB9VyqVNGTK4OsRszC09fFw/0gTSsWy+qXPzj+PTPHrAyfDK8jd2ea4LQgbi5aHIzVjn6i7k2xV5d/4kds+0ypcNXEpy0PqmGoSwCLfgxTbBiq04ui7xIvd+7nBgyM2xA0Ysw2JNn+jRsQTqmWLbPI4mpmMXBBzcKFyFcSlhXAil2KGCq8Rk7Ta8/vimzliKjIuT427nU5zxRa+DjZzhd+Tb8RtwGePZskHmW7s=
+    properties :
+     x : 3
+     y : 8
+     width : 130
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_TexteTéléphone
+    identifier : 0x285a5eaa13eb8f12
+    internal_properties : CAAAAAgAAACirUvjNA2LiV7MQMzWJUbetVb7NNdlMNi6HpIXL2pumxiYvrMh+PpnpUfz2+nGlHzOOO2/Uno/Qe6/Q6yCAsYzpaAtO75NNgtVkuF96Cp9IFy/eCuvWtFgwUqP9DJISmoBym0aSq4QwhHV8pWFAMGjRXJgYfodny5q5+HmvaAKRIdrBOvuoDfVd+R3/BpURJ4UNqNvGs67EWhRhcsRVLO8rtuOTq1s2Bso6r3VzLRqXi/Ax8bXYS62L+dKvNya/tW18cl/Ngw/hUmQ7ArYHZHP1L9AWK5Gr1NDQpXAjH06k87dGdRs4Elq+p+OipfLhFpa/dSH8Dm3rdh0+MA8rXLhuiiUiS/ZN5BXADHKVMLWKQKZFLLOiFt4R1W8Avy1OrnDhIHblCPry4Xf4tgKlgon1lR8wyfbJ/WidWXOkyh4poRcEWLFBVyMqDQ6J5jIyORXkw==
+    properties :
+     x : 3
+     y : 45
+     width : 130
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Envoyer_un_message
+    identifier : 0x285a5eca142a09b1
+    internal_properties : CAAAAAgAAACdWCtaiJpVQiOL85AE4wUPZJHUcQRzdLqa+RtDV2ElfkBmB6HLcHCbhhEINJ5Cf8dY1ua5F/kHEluEeNs0aNvUi3EuJ87dbYfBfQCnT23RPC72jg7PIZDyYdpAepsmITTXYV+vstxQGXX4dPMHImvS1qeEswF9LH9sCbbFNrse2XHo/6llziVBYN/g+GKjO7yFFFiLlyWVWzKL3ysXISGN1l7LYv7mff/ulTJN2q7xyKzcy2stY5ACYHX5D1pgXb8ydT1Q6wMrTFuVrW2VQLfFc0/G6bZ+tY5MK0S2W3c7MuqQvzjWt4RlwjHxxhznQnw5xMYV0emAxT5CcxFW5z1646fOr8tntnx0e2FwhtU25PIhYhtM5dy8ceNURtz1iwmJFcQrKJo1LgWpGQ8izZoiFmeKnVa5ICcva9w46Y+PAwLyOzypicBE5+mwX1JMqmFMJOzR2BGOJcjvpw9XSIMR98r8zr9jtcvHUVSmvqtC+01sFWnD5/OgmQHqumtKjF++O3mfoN7d1EGe6zLESmLmkN5SL851/HDbUXoOGeSxwOcyEl12LzPhw/fLu6dY5X9oJ7i88eYG3vdEGMwcK/96MaPAVwNGPPG4LAAxoxdfYYNbUAcbZEy8oPfegcITlSA/+z4S6L/Wb9PggbrZp0c9uQ927Z/hDxw94VZFbFFWD/gzToY4XYhDPmkEpS+/P7Q1NAme5CEqvr6lj/fvL7QHACxMjmpFuEyPG75tLhDS5sie/zrFCXfoUm7bYxR7MQPmOwg78/5up2Dnij7jyNR/F4w2J52/NqOjBvqNENDZXCKoAlUV4KedZBh++MxTvhC/K/Pkhdh6GPp3wwiU3Ya78I383eFioUpaTXrSGpK1EGfYvDaoLFDhNGbHxJQQ4JW9J7iWyIup6EHu+93/RAeJI/O6Hl1JEt1vDs48/vZzwKYUkd80q0JWB4ZZWFvlnEmJIELYBGtDGGCHdRLcBt7YjrFYCDg=
+    properties :
+     x : 8
+     y : 88
+     width : 120
+     height : 60
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         LIB_Réponse..Visible = faux
+         
+         // Envoi des données vers le téléphone
+         EnvoieDonnéesVersTéléphone()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Réponse
+    identifier : 0x285a8aa714a96176
+    internal_properties : CAAAAAgAAAD+jFlMuXKlm3XOSxt3bGggz+kYcfWrVLgHN219+JfTnMSMUhc8y057OVAbf7W88ZM5u2GUeYV7xPmXp38muEehvo6lXqZtDf8EvNmoDoOzUvzi9G8R3NOVEou3saQSRcnWiGr6tjZFT3eXEvkFa2A2u/UQZwCGMAZrrf+x2hxRv6B4a8Zn7TIy8/NOJR8RWKtggIQw1uNymqTZLYm1ZXCYtaEFdPQH0SGJNBhFkdIm4KPtZM86xg5uCE/swrxv1+XjdEPAJhHbEe6dgaV7d8l8g2KuZkenLH67SsVZskPyZvWMFd6ov+vysBd2XqszR0BT2KXuZMGNSyNrA4dk0UYizm2KIB7SNjnwGQcxTKEN4NLEdZpCBtkG80BRgd/QCU9Jvw6wS4kF26txa9esKGqkZ5sDBlTVPKmQwY2uS+agAAVz8BqAyCgK87l7FdujFoq+H/twsyH2IoQrl/qLcERA8nxrCj3aEZUWjUOla0g=
+    properties :
+     x : 3
+     y : 151
+     width : 130
+     height : 13
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      gnIndice est un entier
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : EnvoieDonnéesVersTéléphone
+     internal_properties : CAAAAAgAAABO/2GZd9I88a5Cj/jvyavuqNHWlSpXWfw1G5oU8EGwt/ajMfEX23EkqfYr+bgwdmnsW4Wg2sTd3Es7qBKbGqUYvXs/6MyiS34b1HqFl0ozuL8cd1qxBNPI6oTRku9ig1LXtM5VNrvKkf4CanGV
+     procedure_id : 1754865285737655845
+     type_code : 14
+     code : |1+
+      // Résumé : Envoie des données vers le téléphone
+      //
+      PROCEDURE EnvoieDonnéesVersTéléphone()
+      
+      bufEnvoi est un buffer 
+      
+      
+      // Contruction du buffer contenant le message à envoyer
+      gnIndice++
+      bufEnvoi = "Envoi de données #" + gnIndice
+      
+      // Envoi des infos
+      awEnvoieEtRécupèreInfo(bufEnvoi,CB_EnvoiDonnéesVersTéléphone)
+     type : 458752
+  templates :
+   -
+     name : FEN_Watch
+     identifier : 0x185a5e0f00fd2eeb
+     code_elements :
+      internal_properties : CAAAAAgAAAATYMQBmsVdBus1tYeN47luxXyspF14cH77jtlYLb9aTQWtucOMS/5871qrlOOJGBRJV8IBL6jVkWfGujkrd1caKCbqjKg=
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         type : 11
+       -
+         type : 12
+       -
+         type : 17
+       -
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x10956b81003eee11
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

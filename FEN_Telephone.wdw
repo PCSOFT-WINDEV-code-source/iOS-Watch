@@ -1,0 +1,174 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Telephone
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Telephone
+ identifier : 0x285a5e22139c7c6e
+ internal_properties : CAAAAAgAAACLSONeDlNSvCbAWnwc5S12muofMcog9zGagen3r53L4fD5DnTol7SRssMkSwFxXJD3I152h8e1TGJ8TRY6xeHmWKyVD+iw9T3VdhDlCuJk4Sw+uUUin7jR0Ec/XOwD/ICUbIVMq2hwWX1Gk0e3uoe9Ii8u9u4ldv+dHuP3UCWXLSiiFBoOvnEYRMvI7r+mZ9sP9lm8aTgQTqTxkmmV3HM0zoFOEoP187AmTNe/tdaEtVoRy0lqfSXvvflIfAEraDhubqGTS7CnpsRvF5GF9UidZzblTWFR7miRUKsfLOETlOuT6R1Y/7QENYK06DHXX+3h4BXloKsIUExv4FFu2lH1FPu9gHKWhEDC6sqCLxc1iWt667ZK5wBmCQFWQ86qeVaz7mal3U+r5zzgzTXgln6VdMOQR/SW6kAFkB5yhFrHDGU8gzi6UIp3fzocVcl9eelYkeWjiJA9BhxjtWsA8DvCb/JW7bnqng0vVttMz9c4f8qlyaqr5QO+gVMYdqH3A8Q4vPCFGUGu0zdVg+53YJksOuC6Fh8kkcggXRXdRRzUvZDuQNDEBGdT24DvNj0poR8B5pCEwGsrtCTH0WETB13vBWX/w0Wt0BE3J3exGvhFebpI8o7UBAQWdx5G5PUhexQpE+l03x3lThzMoSdpdqg7xkAVhtNGDzJmojQfl78r9qne7gZrjnlCnIo3Mw7YLLbu9QMvbk+oiE0ZnqAIIKcE6eUUnI0lWe4+9gASkNshFi6F7WUgbKJj
+ properties :
+  width : 320
+  height : 416
+  heightMin : 480
+ controls :
+  -
+    name : BTN_Envoyer_un_message_sur_la_montre
+    identifier : 0x285a5fc01450cd8f
+    internal_properties : CAAAAAgAAAABEtBKli1PoVqwHYfd8EAbg7+Dy26fOlM9sU+jx5vqVLOEeDq8GqfEdwQzyxDkDGd7bfvoew8HW09f60S6YVa/+OVjGBhjythMcNeXlsJMw/qG9RQAr4dtLY0B4ebfrZcInk9bxP6YqWrk24vCc3Ut06borhDfyKBhPPRClD+tB8Gx/YT2g2HGuQKxafwyplUkyynI3P5d7eqSCCYX53OvRiHIwFpnYnsTYm3gE37a/6xaPsrIarc0BsEk8yWJi9ISiuk4V2r9jvenpLeomrjCYKp+khe6BQHvivwYoVtdYLs0qtFZeHTbh8lpgRBC68U8m2AC+qGJracimGj126s/1aSD9mDPMDNvjF417kK2LnRVjonwwJbq1QdpZP1oB8m+ZGJM9swU5KRx+k6JR5zmhcQQ4DS93gL+ho1oCvLLlHtvlXd7flZ8YmY2+ereCq5JggANAg/4Qr914PhJmxXwYQT7kOvzIT73WXPTXgdZBWkzIWUUxRy45ovqhJTZt7/fLvgFY1QJsNC+Ge45t99EPb0Ny5W7DLSaYdgaxBN4rkQnc6ENee9V2ot1RULF5q9Nsse+eDSWIqAW7DYZ3no+9NAxwWI6VtHPMlTVmN6WW3gYobvSGlgGScucm1v45iCconFAIU0Wd4R42+Cgvu5H4Ho95XjlxXrWZXDRc1SFo+9Ei4KxQ9TZHUHKm3DYpOKOUwzkBbksasElkeEaqH2pcUmtzo8RNo4c3VqRmemr2G8PTH5eeYGqhTyjU7MyYBctvPUrTg6wJV+zVG60VQlBWGsRFbxD/6bXP4244p4jVctmhmlR+MUjP9247S2ykE6N7HB/lHrqQUht1Bn4ecdd8B4U1mV3UlseQj1b4XLDA7kZ6h2048sudlxUkFWsFeX+c5zJvRgS1kcxppBNQkbmXE6ZZs3Y1tG10IEQO5Q2O0pakopaVaoLQobsLBQrZ6WypcegzQfZwLBCzZ8EyYwurnWCHVb90+9AIuaauVJKNOU=
+    properties :
+     x : 72
+     y : 105
+     width : 176
+     height : 58
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         LIB_Réponse..Visible = Faux
+         
+         // Envoi des données vers la montre
+         EnvoyeDonnéesVersMontre()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_SansNom1
+    identifier : 0x285a5fef14638546
+    internal_properties : CAAAAAgAAABoOEYKVyuwaNRQKJ6Uik5yfzxI73w+KZfgjpeKrrH+Ohon7b7RJKaT66e8aFuViyWJEGIBwwjxLJKI0bd9L2mAltcHVzhHipf+9gtFQ1PFXMdnlyEXS/3+6GC8Dzo4JY6d2Hbg5qP6T/rXkrRyKW4wcQp9NRcMV1fUt66Owc3nHu82rs5n/0NoDyzsXjMsefYnGii1viDx215HuXtjgw4n4wyGazibVFcTc4kpAk+ZbFN0vnYZGn81jqdv5yByK+2chB3PyeOBQELb/b8WppMJJDL1OnYeBMH7OO7rCNUbHfVF8JYhXKiHGhx5NkPJyzaEST6GsuKzY5RUw+4pzecb7ca24KjH5pp6xX+MKKaayKCIiHZXhDf/AOLotEXDyO5X3Fs7W87CysSHBCuCXXjbhX8r1jjWW4Gcqh845/V6EIZAklb2IgIs/KEyHhpA3gJX9LnEqHtZT5OeYMLRXyN4ko0AyTfWXizkLPH6PADgAjJz4fjsIh9r07KTbKKvLV2hfkgWwo89Puop4556wxBLG0kcwHg4uDipQu3K8hCCMbg+OF2UP1JJKBNZ/5mn0FtAkhbPm8tjE0FUWxwY8qUmg+yaPzL9Uq63I7Qv
+    properties :
+     x : 16
+     y : 19
+     width : 288
+     height : 67
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_SansNom2
+    identifier : 0x285a601e14673b38
+    internal_properties : CAAAAAgAAAAydgbP+Sw8rt6/GS7LX+k91yvyDxCkKiqaS6WEkH6vWum68TQW0QS3rDTPe1b0VkA3QpOXIsjxvJCJ86auUROhfUE5Wy07JxLhE1sRA+qWu7zHx8gR3DlnM4K6qq9syrwLFZtnanOnVlx+kGxLM9JZHdmrqzAH7Vn3SWRtcgiVHb04DrR36O2cDRfj7rcGN8fi8WFcGRPac+UGpVFrGLd/ZoArtdY6hlQeJfiZRpEGVxJq3lDC7HYyqGU4sXzgJ3ydb2/Sn/diJUv4uie+tE5t7pHlXhOkwseqLkVFZQy/Kp6BmtyGGMeWqIF72PSVG1SGNpecaJUH+V4aXSCWXUP9mZFzmVgBFJQxxgPoyXIBSfc/ejyP4w2IXxjt0AvRsOleOA4pwavCEMOfXzL2yrXt40Mv5AFuvvPQL4k2vDnB6GLQTR/+J5jAXyOtQbKtePK9HgZ7biq4iQJOMQ4FM7CnLiFdxPw9FZq1LPhXgmvFlZKjY/4Lq1AN6MVviE81tSaP/HP28HFrvm0M/Cej84U+pDGRHuXGuVl2g0lDeZ6BRjZVuWtyDGctX8tdOWYWn1kC1uqPAGkcGXDgTRUug018jRyClf63SOp4d4Ykm4k4s0o34hpNS1EW5T3z9pzG3Rapro1ugv2wxiJgN/sFia1G/G2IeP4yEmnnDoOI74BPQIsUenL1oNwaxm10yVxEqVr4Hy8=
+    properties :
+     x : 16
+     y : 235
+     width : 288
+     height : 151
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Réponse
+    identifier : 0x285a8baa14bf5463
+    internal_properties : CAAAAAgAAAAJ7Ab8ZxSFnzTJb8W+FigfkkvODRx3cVrJiP4FQPvpLhLpdeD0ekUZ7szP3DWMuQNI+K72Xne7AgnY+XGoIIV2S0rD5/tNyf8GkPG9WJCpOKZJI0B7uUDu5IjKkXDZfRchBb2IK7UE7jsxfCjlknVR5JvfIJLD0qz+b+dmGrevDpdVoTVLYbBiCDu6pa+Dn1eDaDhOH8cc2P8WEQ3mpMp2bAhLlvO5wBcL/RrRcJp1kR8rye6JG3o0kjHi7MDgkqD93gseUeRXC7PG4CiuaOC3q9XkHIOQZ8iCGyCQsgtvwLsTFfy86iynTpVuWRyPc8ownEIFEn6oRX7WQdv4ZgWFsbBsQKfVm5PWAow73cu/I6H1im9MsYkVCgEbluukucbqZTjcOF8H9pPRCeGvuZYiOWLgybaMfBoWrWuc5IEjKGfa6mbTz5EkDdzCHJrQHW06D8sr81VCfjyP4QMev279
+    properties :
+     x : 16
+     y : 182
+     width : 288
+     height : 33
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x285a5e22139d7c6e
+  internal_properties : CAAAAAgAAACJyRfTJPQ8cn6DXCKDzV51Sq6uo3K6wlqQNfWflVoOO9Dh/B7jDc2DDKJ38OlIOOx3DA3ByteflHntZ9Fw98AWuk/2rEQN28YuHbq3UMb5eYIwiBTlsYAXgyl9DihtlL1OQ/BiGgljcFaPOxvSY+xzQNPSzlWTkaXeuiXqkZrsK8MwwcDoCZbvvIbXfMcxIauE0hrFso2x602keQtaSqC0z7ZdRrRFZ9maks+hC/hcYW1cX0p4SCXEzPTni5BlAFhaIsuTwE/VuxOoRmj0lc1gEVaieS4sSQvh
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : EnvoyeDonnéesVersMontre
+     internal_properties : CAAAAAgAAACio311E35eTZ5uLzi3DdOuqNXa5TpXoehFf5pkyHVgT2b/lck/eykosdKbGYAkBkHU7yGg+ny7Lrmh3iD1tBOGA1F5Tm6Uefjh6kC7CaRpfu0ioTjLBtnK+JLXkOmcyRAdcnAzaE1mLVquhh15
+     procedure_id : 1754864847650888950
+     type_code : 14
+     code : |1+
+      // Résumé : Envoie des données vers la montre
+      //
+      PROCEDURE EnvoyeDonnéesVersMontre()
+      
+      bufEnvoi est un buffer 
+      
+      // Contruction du buffer contenant le message à envoyer
+      bufEnvoi = "Envoi de données #" + DonneIdentifiant()
+      
+      // Envoi des infos
+      awEnvoieEtRécupèreInfo(bufEnvoi,CB_EnvoiDonnéesVersMontre)
+     type : 458752
+  templates :
+   -
+     name : FEN_Telephone
+     identifier : 0x185a5e2200ff7c6e
+     code_elements :
+      internal_properties : CAAAAAgAAAAdlDhBcHsxSm+RwTDgCPqpKRPyp+gZVWExNq8cDI6+JIScd5BaKQDEt1y4jddtNAMA9gIMagXEv9MOGg==
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+       -
+         type : 11
+       -
+         type : 12
+       -
+         type : 17
+       -
+         type : 13
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x10fae9871a7571c8
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

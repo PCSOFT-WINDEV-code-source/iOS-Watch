@@ -1,0 +1,92 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_AppleWatch_Téléphone
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x185a87d001084a78
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : awRéceptionInfo_Téléphone
+     internal_properties : CAAAAAgAAADQEeY6IeEjwkoUEAurDAZ3GEt8G9Z/mXC68nMiALRDQfdavEn5knIEIzN70t3Mu7JYYlb4RRf+G8YjCj6R5LJHgIGegeBBUO73EMxYZ78czE1LvqOOZUqUVBO0PytiunR3Lli9TU6jzVJujdqPTwcH7Ysyvvd6zwnxBZhSs3Lr8V4ZGPrwtBEWTfRzBa1VTBolXuwAzsj0Kei4ySdAvVV4db+kpWDOIAJ1n9ANMn4coF8vIMuSgppZHOFkD6s=
+     procedure_id : 1754864400974120771
+     type_code : 15
+     code : |1-
+      // Résumé : Callback appelée lorsque le téléphone reçoit des données de la montre
+      // Syntaxe :
+      //[ <Résultat> = ] awRéceptionInfo_Téléphone (<bufMessage> est buffer)
+      //
+      // Paramètres :
+      //	bufMessage (buffer) :Le message reçu de la montre
+      // Valeur de retour :
+      // 	buffer : Vrai lors du traitement des données
+      //
+      PROCEDURE awRéceptionInfo_Téléphone(bufMessage est un buffer)
+      sMessage est une chaine
+      bufRetour est un buffer
+      
+      // Traitement des données réceptionnées du téléphone
+      sMessage = bufMessage
+      
+      // Affichage du message dans la fenêtre FEN_Watch si disponible
+      SI FenEtat("FEN_Telephone") <> Inexistant ALORS
+      	// Affichage du message envoyé par le téléphone
+      	ToastAffiche(sMessage)
+      FIN
+      
+      // Le traitement du message a été effectué 
+      bufRetour = Vrai
+      
+      // Réponse pour la montre
+      RENVOYER bufRetour
+     type : 458752
+   -
+     name : CB_EnvoiDonnéesVersMontre
+     internal_properties : CAAAAAgAAAAbMuDmvsctuWoX7I1c6ziLtnRgFHfluWSqC42BYZca8JUIiAycVF+eSXCrw6dx6tEP/C/IdZHfLfdUEim3IDQQ0uw6lj3MeeKzLApvZ7lcAoC1wBhCTJ1OcpTEeY8Qo7M/hGnyNtHeLMKj4/1VGVIG3wXdO5ZgbM9Y7V9eSxTiq0WxvZQFJlev0crfz2HtNPc=
+     procedure_id : 1754864400974186385
+     type_code : 15
+     code : |1+
+      // Résumé : Callback appelée lorsque l'application Apple Watch répond à un envoi
+      // Syntaxe :
+      //CB_EnvoiDonnéesVersMontre (<bufRéponse> est buffer)
+      //
+      // Paramètres :
+      //	bufRéponse (buffer) :La réponse reçue
+      
+      PROCEDURE CB_EnvoiDonnéesVersMontre(bufRéponse est un buffer)
+      
+      bRésultat est un booléen
+      
+      // On traite la réponse reçue
+      // Dans cet exemple le téléphone répond vrai si la réponse a été reçue
+      bRésultat = bufRéponse
+      
+      // Affichage du résultat dans la fenêtre FEN_Watch si disponible
+      SI FenEtat("FEN_Telephone") <> Inexistant ALORS
+      	FEN_Telephone.LIB_Réponse..Visible = Vrai
+      	SI bRésultat = Vrai ALORS
+      		FEN_Telephone.LIB_Réponse = "Message reçu par la montre"
+      	SINON
+      		FEN_Telephone.LIB_Réponse = "Message non reçu par la montre"
+      	FIN
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x10956b6100007315
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
